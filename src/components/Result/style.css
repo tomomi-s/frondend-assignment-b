@@ -1,0 +1,26 @@
+.results-wrapper{
+	/*width: 100%;*/
+	font-family: 'Montserrat', sans-serif;
+	max-width: 450px;
+	margin-top: 2px;
+	box-shadow: -1px 0 0 0 #D7D7D7, 1px 0 0 0 #D7D7D7;
+}
+
+.result-item{
+	height: 45px;
+	display: flex;
+	align-items: center;
+    padding: 0 15px;
+    border-bottom: 1px solid #D7D7D7;
+}
+.item-searchterm{
+	font-weight: 600;
+}
+.item-searchterm .search-value{
+	font-weight: 200;
+}
+
+.item-number{
+	font-weight: 200;
+	padding-left: 5px;
+}
